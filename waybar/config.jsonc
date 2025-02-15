@@ -1,0 +1,19 @@
+{
+	"height": 32,
+  "modules-left": ["hyprland/workspaces"],
+  "modules-right": ["battery", "clock"],
+	"hyprland/workspaces": {
+    "format": "{icon}",
+		"format-icons": {
+			"default": "",
+			"active": ""
+		}
+  },
+	"battery": {
+		"format": "{capacity}% {icon}",
+		"format-icons": "󱈏"
+  },
+  "clock": {
+    "format": "{:%A, %d %B  %H:%M}"
+  }
+}
